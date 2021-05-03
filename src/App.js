@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import SignInSide from './hww3.js';
 
 function App() {
   return (
     <div className="App">
+      <div>
+        {SignInSide()}
+        </div>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
